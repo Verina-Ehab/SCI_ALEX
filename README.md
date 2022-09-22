@@ -1,6 +1,6 @@
 # sci_alex
 
-Application of Faculty of Science Alexsndria University
+Application for system of Faculty of Science Alexsndria University
 
 ## Getting Started
 
