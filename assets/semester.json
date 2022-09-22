@@ -1,0 +1,111 @@
+{
+
+    "spring2020":[
+        {
+        "courses":[{
+                    "firstCourseName":{"name": "", "id": "","code": "","recommended": "","doc": "","finalExam": "","lecture": [""],"hours":3},
+                    "secCourseName":{"name": "", "id": "","code": "","recommended": "","doc": "","finalExam": "","lecture": [""],"hours":3}
+                  }],
+        "semesterName":{"name": "","gpa": "","cgpa": "","hours": ""}
+        },
+
+        {
+        "courses":[{
+                    "firstCourseName":{"name": "", "id": "","code": "","recommended": "","doc": "","finalExam": "","lecture": [""],"hours":3},
+                    "secCourseName":{"name": "", "id": "","code": "","recommended": "","doc": "","finalExam": "","lecture": [""],"hours":3}
+                  }],
+        "semesterName":{"name": "","gpa": "","cgpa": "","hours": ""}
+            },
+            
+        {
+        "courses":[{
+                     "firstCourseName":{"name": "", "id": "","code": "","recommended": "","doc": "","finalExam": "","lecture": [""],"hours":3},
+                     "secCourseName":{"name": "", "id": "","code": "","recommended": "","doc": "","finalExam": "","lecture": [""],"hours":3}
+                   }],
+        "semesterName":{"name": "","gpa": "","cgpa": "","hours": ""}
+        }
+
+    ],
+    
+    "summer2020":[
+        {
+        "courses":[{
+                    "firstCourseName":{"name": "", "id": "","code": "","recommended": "","doc": "","finalExam": "","lecture": [""],"hours":3},
+                    "secCourseName":{"name": "", "id": "","code": "","recommended": "","doc": "","finalExam": "","lecture": [""],"hours":3}
+                  }],
+        "semesterName":{"name": "","gpa": "","cgpa": "","hours": ""}
+        },
+
+        {
+        "courses":[{
+                    "firstCourseName":{"name": "", "id": "","code": "","recommended": "","doc": "","finalExam": "","lecture": [""],"hours":3},
+                    "secCourseName":{"name": "", "id": "","code": "","recommended": "","doc": "","finalExam": "","lecture": [""],"hours":3}
+                  }],
+        "semesterName":{"name": "","gpa": "","cgpa": "","hours": ""}
+            },
+            
+        {
+        "courses":[{
+                     "firstCourseName":{"name": "", "id": "","code": "","recommended": "","doc": "","finalExam": "","lecture": [""],"hours":3},
+                     "secCourseName":{"name": "", "id": "","code": "","recommended": "","doc": "","finalExam": "","lecture": [""],"hours":3}
+                   }],
+        "semesterName":{"name": "","gpa": "","cgpa": "","hours": ""}
+        }
+
+    ],
+    
+    "spring2021":[
+        {
+        "courses":[{
+                    "firstCourseName":{"name": "", "id": "","code": "","recommended": "","doc": "","finalExam": "","lecture": [""],"hours":3},
+                    "secCourseName":{"name": "", "id": "","code": "","recommended": "","doc": "","finalExam": "","lecture": [""],"hours":3}
+                  }],
+        "semesterName":{"name": "","gpa": "","cgpa": "","hours": ""}
+        },
+
+        {
+        "courses":[{
+                    "firstCourseName":{"name": "", "id": "","code": "","recommended": "","doc": "","finalExam": "","lecture": [""],"hours":3},
+                    "secCourseName":{"name": "", "id": "","code": "","recommended": "","doc": "","finalExam": "","lecture": [""],"hours":3}
+                  }],
+        "semesterName":{"name": "","gpa": "","cgpa": "","hours": ""}
+            },
+            
+        {
+        "courses":[{
+                     "firstCourseName":{"name": "", "id": "","code": "","recommended": "","doc": "","finalExam": "","lecture": [""],"hours":3},
+                     "secCourseName":{"name": "", "id": "","code": "","recommended": "","doc": "","finalExam": "","lecture": [""],"hours":3}
+                   }],
+        "semesterName":{"name": "","gpa": "","cgpa": "","hours": ""}
+        }
+
+    ],
+    
+    "summer2021":[
+        {
+        "courses":[{
+                    "firstCourseName":{"name": "", "id": "","code": "","recommended": "","doc": "","finalExam": "","lecture": [""],"hours":3},
+                    "secCourseName":{"name": "", "id": "","code": "","recommended": "","doc": "","finalExam": "","lecture": [""],"hours":3}
+                  }],
+        "semesterName":{"name": "","gpa": "","cgpa": "","hours": ""}
+        },
+
+        {
+        "courses":[{
+                    "firstCourseName":{"name": "", "id": "","code": "","recommended": "","doc": "","finalExam": "","lecture": [""],"hours":3},
+                    "secCourseName":{"name": "", "id": "","code": "","recommended": "","doc": "","finalExam": "","lecture": [""],"hours":3}
+                  }],
+        "semesterName":{"name": "","gpa": "","cgpa": "","hours": ""}
+            },
+            
+        {
+        "courses":[{
+                     "firstCourseName":{"name": "", "id": "","code": "","recommended": "","doc": "","finalExam": "","lecture": [""],"hours":3},
+                     "secCourseName":{"name": "", "id": "","code": "","recommended": "","doc": "","finalExam": "","lecture": [""],"hours":3}
+                   }],
+        "semesterName":{"name": "","gpa": "","cgpa": "","hours": ""}
+        }
+
+    ]
+    
+    }

@@ -1,0 +1,363 @@
+{
+
+
+        "A": {
+            "name": "Simulation",
+            "id": "Andorra",
+            "code": "376",
+            "recommended": "EU",
+            "doc": "Andorra la Vella",
+            "finalExam": "EUR",
+            "lecture": [
+                "ca"
+            ],
+            "hours":3
+        },
+        "B": {
+            "name": "Multimedia",
+            "id": "دولة الإمارات العربية المتحدة",
+            "code": "971",
+            "recommended": "AS",
+            "doc": "Abu Dhabi",
+            "finalExam": "AED",
+            "lecture": [
+                "ar"
+            ],
+            "hours":3
+        },
+        "C": {
+            "name": "Network",
+            "id": "افغانستان",
+            "code": "93",
+            "recommended": "AS",
+            "doc": "Kabul",
+            "finalExam": "AFN",
+            "lecture": [
+                "ps",
+                "uz",
+                "tk"
+            ],
+            "hours":3
+        },
+        "D": {
+            "name": "Antigua and Barbuda",
+            "id": "Antigua and Barbuda",
+            "code": "1268",
+            "recommended": "NA",
+            "doc": "Saint John's",
+            "finalExam": "XCD",
+            "lecture": [
+                "en"
+            ],
+            "hours":3
+        },
+        "E": {
+            "name": "Anguilla",
+            "id": "Anguilla",
+            "code": "1264",
+            "recommended": "NA",
+            "doc": "The Valley",
+            "finalExam": "XCD",
+            "lecture": [
+                "en"
+            ],
+            "hours":3
+        },
+        "F": {
+            "name": "Albania",
+            "id": "Shqipëria",
+            "code": "355",
+            "recommended": "EU",
+            "doc": "Tirana",
+            "finalExam": "ALL",
+            "lecture": [
+                "sq"
+            ],
+            "hours":3
+        },
+        "G": {
+            "name": "Armenia",
+            "id": "Հայաստան",
+            "code": "374",
+            "recommended": "AS",
+            "doc": "Yerevan",
+            "finalExam": "AMD",
+            "lecture": [
+                "hy",
+                "ru"
+            ],
+            "hours":3
+        }
+    ,
+    
+
+        "H": {
+            "name": "Andorra",
+            "id": "Andorra",
+            "code": "376",
+            "recommended": "EU",
+            "doc": "Andorra la Vella",
+            "finalExam": "EUR",
+            "lecture": [
+                "ca"
+            ],
+            "hours":3
+        },
+        "I": {
+            "name": "United Arab Emirates",
+            "id": "دولة الإمارات العربية المتحدة",
+            "code": "971",
+            "recommended": "AS",
+            "doc": "Abu Dhabi",
+            "finalExam": "AED",
+            "lecture": [
+                "ar"
+            ],
+            "hours":3
+        },
+        "J": {
+            "name": "Afghanistan",
+            "id": "افغانستان",
+            "code": "93",
+            "recommended": "AS",
+            "doc": "Kabul",
+            "finalExam": "AFN",
+            "lecture": [
+                "ps",
+                "uz",
+                "tk"
+            ],
+            "hours":3
+        },
+        "K": {
+            "name": "Antigua and Barbuda",
+            "id": "Antigua and Barbuda",
+            "code": "1268",
+            "recommended": "NA",
+            "doc": "Saint John's",
+            "finalExam": "XCD",
+            "lecture": [
+                "en"
+            ],
+            "hours":3
+        },
+        "L": {
+            "name": "Anguilla",
+            "id": "Anguilla",
+            "code": "1264",
+            "recommended": "NA",
+            "doc": "The Valley",
+            "finalExam": "XCD",
+            "lecture": [
+                "en"
+            ],
+            "hours":3
+        },
+        "M": {
+            "name": "Albania",
+            "id": "Shqipëria",
+            "code": "355",
+            "recommended": "EU",
+            "doc": "Tirana",
+            "finalExam": "ALL",
+            "lecture": [
+                "sq"
+            ],
+            "hours":3
+        },
+        "N": {
+            "name": "Armenia",
+            "id": "Հայաստան",
+            "code": "374",
+            "recommended": "AS",
+            "doc": "Yerevan",
+            "finalExam": "AMD",
+            "lecture": [
+                "hy",
+                "ru"
+            ],
+            "hours":3
+
+   ,
+    
+
+        "O": {
+            "name": "Andorra",
+            "id": "Andorra",
+            "code": "376",
+            "recommended": "EU",
+            "doc": "Andorra la Vella",
+            "finalExam": "EUR",
+            "lecture": [
+                "ca"
+            ],
+            "hours":3
+        },
+        "P": {
+            "name": "United Arab Emirates",
+            "id": "دولة الإمارات العربية المتحدة",
+            "code": "971",
+            "recommended": "AS",
+            "doc": "Abu Dhabi",
+            "finalExam": "AED",
+            "lecture": [
+                "ar"
+            ],
+            "hours":3
+        },
+        "Q": {
+            "name": "Afghanistan",
+            "id": "افغانستان",
+            "code": "93",
+            "recommended": "AS",
+            "doc": "Kabul",
+            "finalExam": "AFN",
+            "lecture": [
+                "ps",
+                "uz",
+                "tk"
+            ],
+            "hours":3
+        },
+        "R": {
+            "name": "Antigua and Barbuda",
+            "id": "Antigua and Barbuda",
+            "code": "1268",
+            "recommended": "NA",
+            "doc": "Saint John's",
+            "finalExam": "XCD",
+            "lecture": [
+                "en"
+            ],
+            "hours":3
+        },
+        "S": {
+            "name": "Anguilla",
+            "id": "Anguilla",
+            "code": "1264",
+            "recommended": "NA",
+            "doc": "The Valley",
+            "finalExam": "XCD",
+            "lecture": [
+                "en"
+            ],
+            "hours":3
+        },
+        "T": {
+            "name": "Albania",
+            "id": "Shqipëria",
+            "code": "355",
+            "recommended": "EU",
+            "doc": "Tirana",
+            "finalExam": "ALL",
+            "lecture": [
+                "sq"
+            ],
+            "hours":3
+        },
+        "U": {
+            "name": "Armenia",
+            "id": "Հայաստան",
+            "code": "374",
+            "recommended": "AS",
+            "doc": "Yerevan",
+            "finalExam": "AMD",
+            "lecture": [
+                "hy",
+                "ru"
+            ],
+            "hours":3
+        }
+    ,
+    
+
+        "AD": {
+            "name": "Andorra",
+            "id": "Andorra",
+            "code": "376",
+            "recommended": "EU",
+            "doc": "Andorra la Vella",
+            "finalExam": "EUR",
+            "lecture": [
+                "ca"
+            ],
+            "hours":3
+        },
+        "AE": {
+            "name": "United Arab Emirates",
+            "id": "دولة الإمارات العربية المتحدة",
+            "code": "971",
+            "recommended": "AS",
+            "doc": "Abu Dhabi",
+            "finalExam": "AED",
+            "lecture": [
+                "ar"
+            ],
+            "hours":3
+        },
+        "AF": {
+            "name": "Afghanistan",
+            "id": "افغانستان",
+            "code": "93",
+            "recommended": "AS",
+            "doc": "Kabul",
+            "finalExam": "AFN",
+            "lecture": [
+                "ps",
+                "uz",
+                "tk"
+            ],
+            "hours":3
+        },
+        "AG": {
+            "name": "Antigua and Barbuda",
+            "id": "Antigua and Barbuda",
+            "code": "1268",
+            "recommended": "NA",
+            "doc": "Saint John's",
+            "finalExam": "XCD",
+            "lecture": [
+                "en"
+            ],
+            "hours":3
+        },
+        "AI": {
+            "name": "Anguilla",
+            "id": "Anguilla",
+            "code": "1264",
+            "recommended": "NA",
+            "doc": "The Valley",
+            "finalExam": "XCD",
+            "lecture": [
+                "en"
+            ],
+            "hours":3
+        },
+        "AL": {
+            "name": "Albania",
+            "id": "Shqipëria",
+            "code": "355",
+            "recommended": "EU",
+            "doc": "Tirana",
+            "finalExam": "ALL",
+            "lecture": [
+                "sq"
+            ],
+            "hours":3
+        },
+        "AM": {
+            "name": "Armenia",
+            "id": "Հայաստան",
+            "code": "374",
+            "recommended": "AS",
+            "doc": "Yerevan",
+            "finalExam": "AMD",
+            "lecture": [
+                "hy",
+                "ru"
+            ],
+            "hours":3
+        }
+
+    
+    }}

@@ -1,0 +1,482 @@
+{
+	"info": {
+		"_postman_id": "691cac56-0cae-4ce6-adf3-4a9a0994e327",
+		"name": "sciapp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "student -login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "auth.token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNjUxMDA3NzE0LCJuYmYiOjE2NTEwMDc3MTQsImp0aSI6IlAwZVoySFFnbGFJUmI4ZGsiLCJzdWIiOiIyMDE5IiwicHJ2IjoiZGY4ODNkYjk3YmQwNWVmOGZmODUwODJkNjg2YzQ1ZTgzMmU1OTNhOSJ9.tzxb8qZ58V_vpUuTsQA_nllCI1gTDCPPY9UCcbqLozc",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n   \r\n    \"id\":\"2019\",\r\n    \"password\":\"2019\"\r\n    \r\n   \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/login",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"login"
+					]
+				},
+				"description": "login request"
+			},
+			"response": []
+		},
+		{
+			"name": "show the posts",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "auth.token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNjUxMDA3NzE0LCJuYmYiOjE2NTEwMDc3MTQsImp0aSI6IlAwZVoySFFnbGFJUmI4ZGsiLCJzdWIiOiIyMDE5IiwicHJ2IjoiZGY4ODNkYjk3YmQwNWVmOGZmODUwODJkNjg2YzQ1ZTgzMmU1OTNhOSJ9.tzxb8qZ58V_vpUuTsQA_nllCI1gTDCPPY9UCcbqLozc",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n   \r\n    \"id\":\"2019\",\r\n    \"password\":\"2019\"\r\n    \r\n   \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/login",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"login"
+					]
+				},
+				"description": "login request"
+			},
+			"response": []
+		},
+		{
+			"name": "student -Profile",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "auth.token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNjUxOTUyMTQyLCJleHAiOjE2NTI1NTY5NDIsIm5iZiI6MTY1MTk1MjE0MiwianRpIjoiUk9ZT1hPQkRaajJKVVR2TiIsInN1YiI6IjIwMTkiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.qBLNSBOxpxcY0MY8flC8CVse_LiK3psDSyvjHrliWG0",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n   \r\n    \"id\":\"2019\",\r\n    \"password\":\"2019\"\r\n   \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/profile/show",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"profile",
+						"show"
+					]
+				},
+				"description": "login request"
+			},
+			"response": []
+		},
+		{
+			"name": "student -registration",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "auth.token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNjUxOTUyMTQyLCJleHAiOjE2NTI1NTY5NDIsIm5iZiI6MTY1MTk1MjE0MiwianRpIjoiUk9ZT1hPQkRaajJKVVR2TiIsInN1YiI6IjIwMTkiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.qBLNSBOxpxcY0MY8flC8CVse_LiK3psDSyvjHrliWG0",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n   \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/registration\\registration",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"registration",
+						"registration"
+					]
+				},
+				"description": "login request"
+			},
+			"response": []
+		},
+		{
+			"name": "student - create-registration",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "auth.token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNjUxOTUyMTQyLCJleHAiOjE2NTI1NTY5NDIsIm5iZiI6MTY1MTk1MjE0MiwianRpIjoiUk9ZT1hPQkRaajJKVVR2TiIsInN1YiI6IjIwMTkiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.qBLNSBOxpxcY0MY8flC8CVse_LiK3psDSyvjHrliWG0",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n    \r\n    \"id\":\"2011\"\r\n   \r\n   \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/registration/create",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"registration",
+						"create"
+					]
+				},
+				"description": "login request"
+			},
+			"response": []
+		},
+		{
+			"name": "student -show the academic histroy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "auth.token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNjUxOTUyMTQyLCJleHAiOjE2NTI1NTY5NDIsIm5iZiI6MTY1MTk1MjE0MiwianRpIjoiUk9ZT1hPQkRaajJKVVR2TiIsInN1YiI6IjIwMTkiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.qBLNSBOxpxcY0MY8flC8CVse_LiK3psDSyvjHrliWG0",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{  \r\n   \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/registration/show",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"registration",
+						"show"
+					]
+				},
+				"description": "login request"
+			},
+			"response": []
+		},
+		{
+			"name": "send a request to open course",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "auth.token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNjUxOTUyMTQyLCJleHAiOjE2NTI1NTY5NDIsIm5iZiI6MTY1MTk1MjE0MiwianRpIjoiUk9ZT1hPQkRaajJKVVR2TiIsInN1YiI6IjIwMTkiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.qBLNSBOxpxcY0MY8flC8CVse_LiK3psDSyvjHrliWG0",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n   \r\n     \"course_id\":\"100\",\r\n     \"course_name\":\"simulation\"\r\n    \r\n   \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/open_course/store",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"open_course",
+						"store"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Information about course by id",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "auth.token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNjUxOTUyMTQyLCJleHAiOjE2NTI1NTY5NDIsIm5iZiI6MTY1MTk1MjE0MiwianRpIjoiUk9ZT1hPQkRaajJKVVR2TiIsInN1YiI6IjIwMTkiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.qBLNSBOxpxcY0MY8flC8CVse_LiK3psDSyvjHrliWG0",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n   \r\n    \"course_id\":\"2019\"\r\n    \r\n   \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/help/InformationAboutCourse",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"help",
+						"InformationAboutCourse"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "رغبااااات التنسيق",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "auth.token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNjUxOTUyMTQyLCJleHAiOjE2NTI1NTY5NDIsIm5iZiI6MTY1MTk1MjE0MiwianRpIjoiUk9ZT1hPQkRaajJKVVR2TiIsInN1YiI6IjIwMTkiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.qBLNSBOxpxcY0MY8flC8CVse_LiK3psDSyvjHrliWG0",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n   \r\n    \"course_id\":[\"13\",\"15\"]\r\n    \r\n   \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/help/ChooseDepartment",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"help",
+						"ChooseDepartment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "تحويل المسااار",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "auth.token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNjUxMDA3NzE0LCJuYmYiOjE2NTEwMDc3MTQsImp0aSI6IlAwZVoySFFnbGFJUmI4ZGsiLCJzdWIiOiIyMDE5IiwicHJ2IjoiZGY4ODNkYjk3YmQwNWVmOGZmODUwODJkNjg2YzQ1ZTgzMmU1OTNhOSJ9.tzxb8qZ58V_vpUuTsQA_nllCI1gTDCPPY9UCcbqLozc",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n   \r\n    \"course_id\":\"13\"\r\n    \r\n   \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/open_course",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"open_course"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "show the courses to open course",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "auth.token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNjUxOTUyMTQyLCJleHAiOjE2NTI1NTY5NDIsIm5iZiI6MTY1MTk1MjE0MiwianRpIjoiUk9ZT1hPQkRaajJKVVR2TiIsInN1YiI6IjIwMTkiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.qBLNSBOxpxcY0MY8flC8CVse_LiK3psDSyvjHrliWG0",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n   \r\n    \"course_id\":\"13\"\r\n    \r\n   \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/open_course/show",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"open_course",
+						"show"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "student -logout",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "auth.token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNjUxOTQ5ODk3LCJleHAiOjE2NTI1NTQ2OTcsIm5iZiI6MTY1MTk0OTg5NywianRpIjoid3U2Tll0aURNSVM4eUg3QyIsInN1YiI6IjIwMTkiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.UArJsx-GOIw9uXaqeS-w1S4ahvekNt0gjSLWXYw_3SY",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/logout",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"logout"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
